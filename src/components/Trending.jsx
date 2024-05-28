@@ -8,6 +8,7 @@ import Loading from "./Loading";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 const Trending = () => {
+  
   const navigate = useNavigate();
 
   const [category, setcategory] = useState("all");
@@ -15,7 +16,8 @@ const Trending = () => {
   const [trending, settrending] = useState([]);
   const [page, setpage] = useState(1);
   const [hasMore, sethasMore] = useState(true);
-
+ 
+  document.title = "MovieApp | Trending " + category.toUpperCase();
 
   const GetTrending = async () => {
     try {

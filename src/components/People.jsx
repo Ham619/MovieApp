@@ -3,7 +3,6 @@ import  { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import Loading from './Loading';
 import Topnav from './partials/Topnav';
-import Dropdown from './partials/Dropdown';
 import Cards from './partials/Cards';
 import InfiniteScroll from 'react-infinite-scroll-component';
 

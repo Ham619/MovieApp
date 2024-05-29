@@ -28,7 +28,7 @@ const Cards = ({ data, title }) => {
           {c.name || c.title || c.orignal_name || c.orignal_title || c.profile_path}
           </h1>
 
-          {c.vote_average && <div className={`absolute right-[-10%] bottom-[25%] ${getColorClass((c.vote_average*10).toFixed())} text-xl font-semibold rounded-full text-white w-[5vh] h-[5vh] flex justify-center items-center`}>{(c.vote_average*10).toFixed()}<sup>%</sup></div>}
+          {c.vote_average && <div className={`absolute right-[-10%] bottom-[25%] ${getColorClass((c.vote_average*10).toFixed())} text-xl font-semibold rounded-full text-white w-[6vh] h-[6vh] flex justify-center items-center`}>{(c.vote_average*10).toFixed()}<sup>%</sup></div>}
         </Link>
       ))}
     </div>

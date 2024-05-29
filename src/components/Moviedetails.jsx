@@ -41,7 +41,7 @@ const Moviedetails = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
-      className=" relative w-screen h-[130vh] px-[10%]"
+      className=" relative w-screen h-[140vh] px-[10%]"
     >
       <nav className=" h-[10vh] w-full text-zinc-100 flex items-center gap-10 text-2xl ">
         <Link
